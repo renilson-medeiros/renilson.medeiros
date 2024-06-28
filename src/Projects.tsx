@@ -31,7 +31,7 @@ function Projects() {
               </a>
           </span>
         <div className='transition-all cursor-pointer opacity-90 hover:opacity-100 max-h-[400px]'>
-          <img loading="lazy" src="https://github.com/renilson-medeiros/renilson.medeiros/blob/main/src/assets/imgs/preview_landing_page_pagamentos.png" alt="Preview landing page de pagamentos" />
+          <img loading="lazy" src="https://raw.githubusercontent.com/renilson-medeiros/renilson.medeiros/main/src/assets/imgs/preview_landing_page_pagamentos.png" alt="Preview landing page de pagamentos" />
         </div>
       </div>
       </div>
