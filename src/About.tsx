@@ -1,4 +1,4 @@
-import './App.css'
+import './App.css';
 
 function calculaIdade(dateBorn: string) {
   const today = new Date();
@@ -14,7 +14,7 @@ function calculaIdade(dateBorn: string) {
 }
 
 function About() {
-  const dateBorn: string = '1996-01-14';
+  const dateBorn: string = '1996-01-14'; // Explicitando o tipo como string
   const idade = calculaIdade(dateBorn);
 
   return (
