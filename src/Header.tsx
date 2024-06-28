@@ -16,7 +16,7 @@ function Header() {
             </div>
           </div>
 
-          <div className='max-[500px]:w-full max-[500px]:flex max-[500px]:justify-center max-[500px]:-mb-6'>
+          <div className='max-[500px]:w-full max-[500px]:flex max-[500px]:justify-start max-[500px]:-mb-6'>
             <ul className='flex items-end gap-2'>
 
               <li className='bg-gray-50 w-10 h-10 rounded flex justify-center items-center hover:bg-black-200 text-black-200 hover:text-gray-50 cursor-pointer transition-all'>
