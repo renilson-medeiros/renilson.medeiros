@@ -1,6 +1,6 @@
 import './App.css'
 
-function calculaIdade(dateBorn) {
+function calculaIdade(dateBorn: string) {
   const today = new Date();
   const born = new Date(dateBorn);
   let age = today.getFullYear() - born.getFullYear();
@@ -14,7 +14,7 @@ function calculaIdade(dateBorn) {
 }
 
 function About() {
-  const dateBorn = '1996-01-14';
+  const dateBorn: string = '1996-01-14';
   const idade = calculaIdade(dateBorn);
 
   return (
