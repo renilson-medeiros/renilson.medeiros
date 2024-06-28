@@ -13,7 +13,7 @@ const EmailButton = ({ label, subject, body }: EmailButtonProps) => {
 
   return (
     <a
-      className="w-52 max-[375px]:w-full flex justify-center rounded border border-black-200 px-8 py-2 cursor-pointer text-black-100 hover:bg-black-200 hover:text-gray-50 transition-all hover:shadow-sm hover:shadow-gray-100 items-center gap-1 hover:gap-2"
+      className="w-52 max-[500px]:w-full flex justify-center rounded border border-black-200 px-8 py-2 cursor-pointer text-black-100 hover:bg-black-200 hover:text-gray-50 transition-all hover:shadow-sm hover:shadow-gray-100 items-center gap-1 hover:gap-2"
       href={mailtoLink}
     >
       <span>{label}</span>
