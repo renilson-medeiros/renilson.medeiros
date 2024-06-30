@@ -1,7 +1,6 @@
 // vite.config.ts
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
-import envCompatible from 'vite-plugin-env-compatible';
 
 export default defineConfig({
   plugins: [react()],
@@ -10,7 +9,7 @@ export default defineConfig({
   },
   build: {
     rollupOptions: {
-      external: ['ProjetoPagamento'], 
+      external: ['PagamentoFaturas'],
     },
   },
 });

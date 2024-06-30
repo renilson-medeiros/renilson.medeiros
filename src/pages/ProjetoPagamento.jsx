@@ -29,7 +29,7 @@ const CaseStudy = () => {
       <div className="relative w-full h-screen max-h-[500px] max-[500px]:h-[450px] flex justify-center items-center my-20 px-6 max-[500px]:my-12">
         <div className='w-full max-w-screen-sm flex flex-col'>
           <div className='absolute top-0 text-sm'>
-            <a href="/" className='font-medium flex gap-1 items-center text-black-100 underline transition-all py-1'>
+            <a href="/" className='font-medium flex gap-1 hover:gap-2 items-center text-black-100 underline transition-all py-1'>
               <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-arrow-left">
                 <path d="m12 19-7-7 7-7"/>
                 <path d="M19 12H5"/>
@@ -50,7 +50,7 @@ const CaseStudy = () => {
     <div className="relative w-full h-screen max-h-[500px] max-[500px]:h-[450px] flex justify-center items-center my-20 px-6 max-[500px]:my-12">
       <div className='w-full max-w-screen-sm flex flex-col'>
         <div className='absolute top-0 text-sm'>
-          <a href="/" className='font-medium flex gap-1 items-center text-black-100 underline transition-all py-1'>
+          <a href="/" className='font-medium flex gap-1 hover:gap-2 items-center text-black-100 underline transition-all py-1'>
             <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-arrow-left">
               <path d="m12 19-7-7 7-7"/>
               <path d="M19 12H5"/>
@@ -86,3 +86,4 @@ const CaseStudy = () => {
 };
 
 export default CaseStudy;
+ 
