@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './Header';
 import Experience from './Experience';
@@ -8,8 +8,9 @@ import Techskill from './Techskill';
 import Projects from './Projects';
 import Contact from './Contact';
 import Footer from './Footer';
-import * as './pages/ProjetoPagamento';
+import CaseStudy from './pages/ProjetoPagamento';
 import './index.css';
+import 'non.geist';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
