@@ -10,9 +10,9 @@ const scrollToTtop = () => {
 function Footer() {
 
   return (
-    <div className="w-full flex relative justify-around items-center py-5 px-10 border-t-2 border-gray-50  max-[500px]:px-5">
+    <footer className="w-full flex bottom-0 justify-around items-center py-5 px-10 border-t-2 border-gray-50  max-[500px]:px-5">
       <div className='w-full flex max-w-screen-sm'>
-        <div className="Profile w-full flex flex-col gap-2">
+        <div className="w-full flex flex-col gap-2">
           <div className='text-gray-200 font-medium text-sm w-full flex justify-between'>
 
           <button onClick={scrollToTtop} className='bg-black-100 hover:bg-black-200 transsition-all p-2 rounded text-gray-50'>
@@ -29,7 +29,7 @@ function Footer() {
           </div>
         </div>
       </div>
-    </div>
+    </footer>
   )
 }
 
