@@ -1,6 +1,4 @@
-import React from 'react';
-
-declare module './ProjetoPagamento.jsx' {
+declare module './ProjetoPagamento' {
   const Component: React.FC;
   export default Component;
 }

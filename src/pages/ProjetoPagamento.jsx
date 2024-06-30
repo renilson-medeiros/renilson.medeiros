@@ -7,7 +7,7 @@ const CaseStudy = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const correctPassword = process.env.VITE_KEY_CASE_STUDY_OI;
+    const correctPassword = import.meta.env.VITE_KEY_CASE_STUDY_OI;
     if (password === correctPassword) {
       setIsAuthenticated(true);
       setIsIncorrectPassword(false);
