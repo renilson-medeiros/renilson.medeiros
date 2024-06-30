@@ -9,7 +9,7 @@ import Techskill from './Techskill';
 import Projects from './Projects';
 import Contact from './Contact';
 import Footer from './Footer';
-import CaseStudy from 'ProjetoPagamento';
+import CaseStudy from './pages/ProjetoPagamento';
 import './index.css';
 import 'non.geist';
 ReactDOM.render(_jsx(React.StrictMode, { children: _jsxs(Router, { children: [_jsx(Header, {}), _jsxs(Routes, { children: [_jsx(Route, { path: "/", element: _jsxs(_Fragment, { children: [_jsx(Experience, {}), _jsx(About, {}), _jsx(Techskill, {}), _jsx(Projects, {}), _jsx(Contact, {})] }) }), _jsx(Route, { path: "/case-study", element: _jsx(CaseStudy, {}) })] }), _jsx(Footer, {})] }) }), document.getElementById('root'));
