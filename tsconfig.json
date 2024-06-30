@@ -1,15 +1,21 @@
 {
   "compilerOptions": {
-    "target": "ESNext",
-    "lib": ["ESNext", "DOM"],
+    "target": "ES2020",
     "module": "ESNext",
-    "moduleResolution": "node",
+    "lib": ["ES2020", "DOM"],
     "jsx": "react-jsx",
-    "strict": true,
+    "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
+    "strict": true,
     "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "noEmit": true
   },
-  "include": ["src/**/*"]
+  "include": ["src"]
 }

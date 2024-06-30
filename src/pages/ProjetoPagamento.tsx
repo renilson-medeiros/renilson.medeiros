@@ -5,7 +5,7 @@ const CaseStudy = () => {
   const [password, setPassword] = useState('');
   const [isIncorrectPassword, setIsIncorrectPassword] = useState(false);
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     const correctPassword = import.meta.env.VITE_CASE_STUDY_OI;
     if (password === correctPassword) {
@@ -16,10 +16,11 @@ const CaseStudy = () => {
     }
   };
 
-  const handlePasswordChange = (e) => {
+  const handlePasswordChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setPassword(e.target.value);
     setIsIncorrectPassword(false);
   };
+  
 
   const inputClass = `border w-full rounded px-4 py-4 ${isIncorrectPassword ? 'border-red-50' : 'border-black-100'}`;
   const feedbackTextClass = `text-red-50 absolute bottom-0 pl-1 text-sm ${isIncorrectPassword ? 'block' : 'hidden'}`;
