@@ -1,5 +1,3 @@
-import { Calculator } from 'lucide-react';
-
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -34,8 +32,9 @@ export default {
         300: '#000000'
       },
       'red': {
-        50: '#A02A2A',
-        100: '#721919',
+        50: '#FF0000',
+        100: '#A02A2A',
+        200: '#721919',
       },
       'green': {
         50: '#DBFFDB',
@@ -98,7 +97,7 @@ export default {
     },
   },
   plugins: [
-    require('tailwind-scrollbar')({ nocompatible: true })
+    
   ],
 }
 
