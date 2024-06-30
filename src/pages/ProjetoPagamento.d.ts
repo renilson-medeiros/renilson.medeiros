@@ -1,4 +1,5 @@
 declare module './ProjetoPagamento' {
-  const Component: React.FC;
+  import { FC } from 'react';
+  const Component: FC;
   export default Component;
 }
