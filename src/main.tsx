@@ -8,9 +8,8 @@ import Techskill from './Techskill';
 import Projects from './Projects';
 import Contact from './Contact';
 import Footer from './Footer';
-import CaseStudy from './pages/ProjetoPagamento';
+import CaseStudy from 'ProjetoPagamento';
 import './index.css';
-import 'non.geist';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
