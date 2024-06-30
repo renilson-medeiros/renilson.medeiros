@@ -1,15 +1,15 @@
-// src/main.jsx
+// src/main.tsx
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Header from './Header.tsx';
-import Experience from './Experience.tsx';
-import About from './About.tsx';
-import Techskill from './Techskill.tsx';
-import Projects from './Projects.tsx';
-import Contact from './Contact.tsx';
-import Footer from './Footer.tsx';
-import CaseStudy from './pages/ProjetoPagamento.jsx';
+import Header from './Header';
+import Experience from './Experience';
+import About from './About';
+import Techskill from './Techskill';
+import Projects from './Projects';
+import Contact from './Contact';
+import Footer from './Footer';
+import CaseStudy from './pages/ProjetoPagamento';
 import './index.css';
 import 'non.geist';
 

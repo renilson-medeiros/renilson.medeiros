@@ -7,19 +7,19 @@ const CaseStudy = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const correctPassword = import.meta.env.VITE_KEY_CASE_STUDY_OI;
+    const correctPassword = process.env.VITE_KEY_CASE_STUDY_OI;
     if (password === correctPassword) {
       setIsAuthenticated(true);
       setIsIncorrectPassword(false);
     } else {
       setIsIncorrectPassword(true);
     }
-  }
+  };
 
   const handlePasswordChange = (e) => {
-    setPassword(e.target.value)
-    setIsIncorrectPassword(false)
-  }
+    setPassword(e.target.value);
+    setIsIncorrectPassword(false);
+  };
 
   const inputClass = `border w-full rounded px-4 py-4 ${isIncorrectPassword ? 'border-red-50' : 'border-black-100'}`;
   const feedbackTextClass = `text-red-50 absolute bottom-0 pl-1 text-sm ${isIncorrectPassword ? 'block' : 'hidden'}`;
