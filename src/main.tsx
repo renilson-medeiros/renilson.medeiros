@@ -8,7 +8,7 @@ import Techskill from './Techskill';
 import Projects from './Projects';
 import Contact from './Contact';
 import Footer from './Footer';
-import CaseStudy from 'ProjetoPagamento';
+import CaseStudy from './pages/ProjetoPagamento';
 import './index.css';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
