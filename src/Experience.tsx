@@ -35,7 +35,7 @@ function Experience() {
 
           <div className='text-sm flex gap-1 max-[500px]:flex-wrap'>
             <span className='text-gray-200 font-medium before:content-["Atual"] before:py-1 before:px-2 before:rounded before:mr-1 before:bg-black-50 before:text-gray-50 before:text-xs'>Software Engineering Associate</span>
-            <a href="https://www.accenture.com/br-pt" target='blanck' className='underline flex items-center'>
+            <a href="https://www.accenture.com/br-pt" target='_blank' className='underline flex items-center'>
               <span className='font-medium'>Accenture</span>
               <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-arrow-up-right"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
             </a>
@@ -43,7 +43,7 @@ function Experience() {
 
           <div className='text-sm flex gap-1 max-[500px]:flex-wrap'>
             <span className='text-gray-200 font-medium'>Analista de Desenvolvimento de Sistemas</span>
-            <a href="https://k2partnering.com/pt/" target='blanck' className='underline flex items-center'>
+            <a href="https://k2partnering.com/pt/" target='_blank' className='underline flex items-center'>
               <span className='font-medium'>K2 Partnering Solutions</span>
               <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-arrow-up-right"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
             </a>
