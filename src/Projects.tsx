@@ -1,4 +1,3 @@
-// src/Projects.js
 import { Link } from 'react-router-dom';
 import './App.css';
 

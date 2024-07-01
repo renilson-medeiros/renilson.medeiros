@@ -9,6 +9,7 @@ import Projects from './Projects';
 import Contact from './Contact';
 import Footer from './Footer';
 import CaseStudy from './pages/ProjetoPagamento'
+import Project from './pages/Project'
 import './index.css';
 import 'non.geist';
 
@@ -27,6 +28,7 @@ ReactDOM.render(
           </>
         } />
         <Route path="/case-study" element={<CaseStudy />} />
+        <Route path="/projects" element={<Project />} />
       </Routes>
       <Footer />
     </Router>
