@@ -1,5 +1,5 @@
 import React from 'react';
-import projects, { Project } from '../projectsData';
+import projects, { Project } from '../projectsData'; // Importe o projectsData
 
 const ProjectComponent: React.FC = () => {
   return (
