@@ -1,5 +1,6 @@
 import React from 'react';
-import projects, { Project } from '../projectsData'; // Importe o projectsData
+import { Link } from 'react-router-dom'; // Importe o Link do React Router
+import projects, { Project } from '../projectsData';
 
 const ProjectComponent: React.FC = () => {
   return (
@@ -38,13 +39,13 @@ const ProjectComponent: React.FC = () => {
                           {project.description}
                         </p>
                       </div>
-                      <a className="w-full justify-end flex items-center gap-1 hover:gap-2 transition-all" href={project.link}>
+                      <Link className="w-full justify-end flex items-center gap-1 hover:gap-2 transition-all" to={project.link}>
                         <span>Ver mais</span>
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-arrow-up-right">
                           <path d="M7 7h10v10"/>
                           <path d="M7 17 17 7"/>
                         </svg>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 ))}
