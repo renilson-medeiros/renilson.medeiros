@@ -1,7 +1,7 @@
 import React from 'react';
-import projects from '../projectsData'; // Certifique-se de ajustar o caminho conforme necessário
+import projects, { Project } from '../projectsData';
 
-function Project() {
+const ProjectComponent: React.FC = () => {
   return (
     <div className="w-full flex justify-around items-center my-20 px-6 max-[500px]:my-12">
       <div className='w-full flex flex-wrap max-w-screen-sm relative items-center'>
@@ -23,7 +23,7 @@ function Project() {
             <div className="mt-6">
               <div className='flex flex-wrap gap-y-16 justify-between'>
                 
-                {projects.map(project => (
+                {projects.map((project: Project) => (
                   <div key={project.id} className="bg-white-200 relative rounded overflow-hidden group shadow-sm">
                     <img 
                       className="w-full h-auto group-hover:blur-3xl group-hover:origin-bottom-left group-hover:scale-150 duration-500 transition-all"
@@ -59,4 +59,4 @@ function Project() {
   );
 }
 
-export default Project;
+export default ProjectComponent;

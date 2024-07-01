@@ -7,8 +7,7 @@ const projects = [
     description: "Projeto desenvolvido para o cliente acessar facilmente todas as suas faturas pendentes em um único lugar reduzindo o tempo e o esforço para efetuar os pagamentos.",
     link: "/case-study"
   },
-    
-  ];
   
-  export default projects;
-  
+];
+
+export default projects
