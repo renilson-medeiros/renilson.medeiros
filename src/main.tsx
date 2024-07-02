@@ -12,10 +12,12 @@ import CaseStudy from './pages/ProjetoPagamento'
 import Project from './pages/Project'
 import './index.css';
 import 'non.geist';
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 ReactDOM.render(
   <React.StrictMode>
     <Router>
+      <SpeedInsights/>
       <Header />
       <Routes>
         <Route path="/" element={
