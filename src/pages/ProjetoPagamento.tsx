@@ -46,7 +46,7 @@ const CaseStudy = () => {
             <h1 className='text-3xl font-semibold uppercase max-[500px]:text-2xl'>Landing Page para pagamento de faturas</h1>
 
             <div className='transition-all rounded overflow-hidden mt-6 cursor-pointer opacity-90 hover:opacity-100 max-h-[400px]'>
-              <img loading="lazy" src="https://raw.githubusercontent.com/renilson-medeiros/renilson.medeiros/main/src/assets/imgs/preview_landing_page_pagamentos.png" alt="Preview landing page de pagamentos" />
+              <img loading="lazy" src="https://raw.githubusercontent.com/renilson-medeiros/renilson.medeiros/main/src/assets/imgs/preview_projeto.png" alt="Preview landing page de pagamentos" />
             </div>
 
             <div className='flex mt-6 flex-col w-full items-start gap-2'>
